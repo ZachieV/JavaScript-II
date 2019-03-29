@@ -1,5 +1,5 @@
 
-# JavaScript - II
+#        JavaScript - II
 
 With some basic JavaScript principles in hand, we can now expand our skills out even further by exploring callback functions, array methods, and closure.  Finish each task in order as the concepts build on one another.
 
@@ -32,7 +32,7 @@ This task focuses on getting practice with higher order functions and callback f
 
 Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array with 50 objects in it. The [array-methods.js](assignments/array-methods.js) file contains several challenges built around a fundraising 5K fun run event.
 
-* [ ] Review the contents of the [array-methods.js](assignments/array-methods.js) file.  
+* [ ] Review the contents of the [array-methods.js](assignments/array-methods.js) file.
 
 * [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
 
@@ -40,11 +40,11 @@ Use `.forEach()`, `.map()`, `.filter()`, and `.reduce()` to loop over an array w
 
 ## Task 4: Closures
 
-We have learned that closures allow us to access values in scope that have already been invoked (lexical scope).  
+We have learned that closures allow us to access values in scope that have already been invoked (lexical scope).
 
 **Hint: Utilize debugger statements in your code in combination with your developer tools to easily identify closure values.**
 
-* [ ] Review the contents of the [closure.js](assignments/closure.js) file.  
+* [ ] Review the contents of the [closure.js](assignments/closure.js) file.
 * [ ] Complete the problems provided to you but skip over stretch problems until you are complete with every other JS file first.
 
 ## Stretch Goals
