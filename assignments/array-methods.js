@@ -489,7 +489,24 @@ console.log(ticketPriceTotal);
 // Now that you have used .forEach(), .map(), .filter(), and .reduce().  I want you to think of potential problems you could solve given the data set and the 5k fun run theme.  Try to create and then solve 3 unique problems using one or many of the array methods listed above.
 
 // Problem 1
+//  The only way to defeat the event director is to change all of the names to LOWER CASE, destroy the none believer!
+let allLower = [];
+allLower = fullName.map(function(lower) {
+  return lower.toLowerCase()
+});
+console.log(allLower);
 
 // Problem 2
+// Now that we have defeated the event director it is time to create the ultimate email campaign, log all of the emails and first names of the runners!
+let emailList = [];
+runners.forEach(function(array) {
+  emailList.push(`${array.first_name} ${array.email} `);
+});
+console.log(emailList);
 
 // Problem 3
+// Our plan has finally come to fruition, now that we have the email list, we can spam everyone with small size shirts!
+
+let smallShirts = [];
+smallShirts = runners.filter(runners => runners.shirt_size == "S");
+console.log(smallShirts);
